@@ -8,6 +8,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { BasicInfoComponent } from './basic-info/basic-info.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { BasicInfoComponent } from './basic-info/basic-info.component';
         MatSliderModule,
         MatToolbarModule,
         MatIconModule,
+        MatGridListModule,
+        MatCardModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
