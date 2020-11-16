@@ -2,14 +2,31 @@
   margin: 32px;
   text-align: center;
   font-weight: bolder;
-  font-size: 70px;
-  line-height: 70px;
 }
 
-mat-grid-list {
+.card-container {
   margin: 0 auto;
+  justify-content: center;
+  padding: 32px 16px 16px 16px;
+  width: 40%;
+  min-width: 181px;
 }
 
-figure.mat-figure {
-  width: 150px;
+button {
+  padding-left: 12px;
+}
+
+mat-icon {
+  vertical-align: center;
+  margin-right: 8px;
+}
+
+fa-icon {
+  margin-right: 8px;
+}
+
+.button-container {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-start;
 }
